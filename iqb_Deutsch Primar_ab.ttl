@@ -1,0 +1,39 @@
+@base <https://w3id.org/iqb/bista22dep/ab/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<444169bb-4db2-4338-b204-5fa2d4c98e28> a skos:Concept ;
+    skos:broader <ab/> ;
+    skos:definition "umfasst das selbstständige Anordnen, Verarbeiten, Erklären und Darstellen bekannter Sachverhalte (auch auf der Basis von Texten unterschiedlicher medialer Form) unter vorgegebenen Gesichtspunkten in einem durch Übung bekannten Zusammenhang und das selbstständige Übertragen und Anwenden des Gelernten auf vergleichbare neue Zusammenhänge und Sachverhalte.</li></ul>"@de ;
+    skos:inScheme <> ;
+    skos:notation "2" ;
+    skos:prefLabel "Anforderungsbereich II"@de .
+
+<6575230d-4ba2-4ef6-a6a0-d1e0b82e671b> a skos:Concept ;
+    skos:broader <ab/> ;
+    skos:definition "umfasst das Wiedergeben von Sachverhalten, Textinhalten und Kenntnissen im gelernten Zusammenhang, die Verständnissicherung sowie das Anwenden und Beschreiben geübter Arbeitstechniken und Verfahren."@de ;
+    skos:inScheme <> ;
+    skos:notation "1" ;
+    skos:prefLabel "Anforderungsbereich I"@de .
+
+<efe0b67c-2264-4545-95a1-4d6c83df2b34> a skos:Concept ;
+    skos:broader <ab/> ;
+    skos:definition "umfasst das Verarbeiten komplexer Sachverhalte (auch auf der Basis von Texten unterschiedlicher medialer Form) mit dem Ziel, zu selbstständigen Lösungen, Gestaltungen oder Deutungen, Folgerungen, Verallgemeinerungen, Begründungen und Wertungen zu gelangen. Dabei wählen die Schülerinnen und Schüler selbstständig geeignete Arbeitstechniken, Strategien und Verfahren zur Bewältigung der Aufgabe, wenden sie auf eine neue Problemstellung an und reflektieren das eigene Vorgehen.</li></ul>"@de ;
+    skos:inScheme <> ;
+    skos:notation "3" ;
+    skos:prefLabel "Anforderungsbereich III"@de .
+
+<> a skos:ConceptScheme ;
+    dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de ;
+    dct:description ""@de ;
+    dct:title "Deutsch Primar_Anforderungsbereiche"@de ;
+    skos:hasTopConcept <ab/> .
+
+<ab/> a skos:Concept ;
+    skos:definition "Anforderungsbereiche"@de ;
+    skos:narrower <444169bb-4db2-4338-b204-5fa2d4c98e28>,
+        <6575230d-4ba2-4ef6-a6a0-d1e0b82e671b>,
+        <efe0b67c-2264-4545-95a1-4d6c83df2b34> ;
+    skos:prefLabel "Anforderungsbereiche"@de ;
+    skos:topConceptOf <> .
+

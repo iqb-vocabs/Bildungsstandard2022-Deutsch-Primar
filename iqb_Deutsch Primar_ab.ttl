@@ -2,7 +2,15 @@
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
-<3dcd2263-76a8-4d10-9888-e92d9aa65bcd> a skos:Concept ;
+<0bf99b80-2d27-457f-8d48-094876994dfa> a skos:Concept ;
+    skos:broader <> ;
+    skos:definition "umfasst das selbstständige Anordnen, Verarbeiten, Erklären und Darstellen bekannter Sachverhalte (auch auf der Basis von Texten unterschiedlicher medialer Form) unter vorgegebenen Gesichtspunkten in einem durch Übung bekannten Zusammenhang und das selbstständige Übertragen und Anwenden des Gelernten auf vergleichbare neue Zusammenhänge und Sachverhalte."@de ;
+    skos:inScheme <> ;
+    skos:notation "2" ;
+    skos:prefLabel "Anforderungsbereich II"@de ;
+    skos:topConceptOf <> .
+
+<6b6b27b9-3366-4bfd-aedb-3ad5fe3f6036> a skos:Concept ;
     skos:broader <> ;
     skos:definition "umfasst das Wiedergeben von Sachverhalten, Textinhalten und Kenntnissen im gelernten Zusammenhang, die Verständnissicherung sowie das Anwenden und Beschreiben geübter Arbeitstechniken und Verfahren."@de ;
     skos:inScheme <> ;
@@ -10,20 +18,12 @@
     skos:prefLabel "Anforderungsbereich I"@de ;
     skos:topConceptOf <> .
 
-<560f19d3-ebd7-417f-a005-213d67110a23> a skos:Concept ;
+<bd7b3b07-c289-48fd-bb1f-3b71df7a1427> a skos:Concept ;
     skos:broader <> ;
-    skos:definition "umfasst das Verarbeiten komplexer Sachverhalte (auch auf der Basis von Texten unterschiedlicher medialer Form) mit dem Ziel, zu selbstständigen Lösungen, Gestaltungen oder Deutungen, Folgerungen, Verallgemeinerungen, Begründungen und Wertungen zu gelangen. Dabei wählen die Schülerinnen und Schüler selbstständig geeignete Arbeitstechniken, Strategien und Verfahren zur Bewältigung der Aufgabe, wenden sie auf eine neue Problemstellung an und reflektieren das eigene Vorgehen.</li></ul>"@de ;
+    skos:definition "umfasst das Verarbeiten komplexer Sachverhalte (auch auf der Basis von Texten unterschiedlicher medialer Form) mit dem Ziel, zu selbstständigen Lösungen, Gestaltungen oder Deutungen, Folgerungen, Verallgemeinerungen, Begründungen und Wertungen zu gelangen. Dabei wählen die Schülerinnen und Schüler selbstständig geeignete Arbeitstechniken, Strategien und Verfahren zur Bewältigung der Aufgabe, wenden sie auf eine neue Problemstellung an und reflektieren das eigene Vorgehen."@de ;
     skos:inScheme <> ;
     skos:notation "3" ;
     skos:prefLabel "Anforderungsbereich III"@de ;
-    skos:topConceptOf <> .
-
-<8a75a674-123d-4eb5-a56f-26693976239c> a skos:Concept ;
-    skos:broader <> ;
-    skos:definition "umfasst das selbstständige Anordnen, Verarbeiten, Erklären und Darstellen bekannter Sachverhalte (auch auf der Basis von Texten unterschiedlicher medialer Form) unter vorgegebenen Gesichtspunkten in einem durch Übung bekannten Zusammenhang und das selbstständige Übertragen und Anwenden des Gelernten auf vergleichbare neue Zusammenhänge und Sachverhalte.</li></ul>"@de ;
-    skos:inScheme <> ;
-    skos:notation "2" ;
-    skos:prefLabel "Anforderungsbereich II"@de ;
     skos:topConceptOf <> .
 
 <> a skos:ConceptScheme ;
@@ -31,11 +31,11 @@
     dct:description ""@de,
         "Anforderungsbereiche"@de ;
     dct:title "Deutsch Primar_Anforderungsbereiche"@de ;
-    skos:hasTopConcept <3dcd2263-76a8-4d10-9888-e92d9aa65bcd>,
-        <560f19d3-ebd7-417f-a005-213d67110a23>,
-        <8a75a674-123d-4eb5-a56f-26693976239c> ;
-    skos:narrower <3dcd2263-76a8-4d10-9888-e92d9aa65bcd>,
-        <560f19d3-ebd7-417f-a005-213d67110a23>,
-        <8a75a674-123d-4eb5-a56f-26693976239c> ;
+    skos:hasTopConcept <0bf99b80-2d27-457f-8d48-094876994dfa>,
+        <6b6b27b9-3366-4bfd-aedb-3ad5fe3f6036>,
+        <bd7b3b07-c289-48fd-bb1f-3b71df7a1427> ;
+    skos:narrower <0bf99b80-2d27-457f-8d48-094876994dfa>,
+        <6b6b27b9-3366-4bfd-aedb-3ad5fe3f6036>,
+        <bd7b3b07-c289-48fd-bb1f-3b71df7a1427> ;
     skos:prefLabel "Anforderungsbereiche"@de .
 

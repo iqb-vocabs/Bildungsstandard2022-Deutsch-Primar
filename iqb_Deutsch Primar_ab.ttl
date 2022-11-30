@@ -37,4 +37,4 @@
         <bb8adc2e-d5a7-4a29-9fde-d2798cc77a4d>,
         <e732ed57-74a4-4944-a795-be9c8078a3c0> ;
     skos:prefLabel "Anforderungsbereiche"@de .
-
+ 

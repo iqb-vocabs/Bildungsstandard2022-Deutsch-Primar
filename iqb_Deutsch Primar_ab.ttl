@@ -2,7 +2,7 @@
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
-<455ca206-20e9-4965-beac-8bb61ad33797> a skos:Concept ;
+<a85608f3-2a5e-4344-a8a0-ecf0fb4cf095> a skos:Concept ;
     skos:broader <> ;
     skos:definition "umfasst das selbstständige Anordnen, Verarbeiten, Erklären und Darstellen bekannter Sachverhalte (auch auf der Basis von Texten unterschiedlicher medialer Form) unter vorgegebenen Gesichtspunkten in einem durch Übung bekannten Zusammenhang und das selbstständige Übertragen und Anwenden des Gelernten auf vergleichbare neue Zusammenhänge und Sachverhalte."@de ;
     skos:inScheme <> ;
@@ -10,7 +10,7 @@
     skos:prefLabel "Anforderungsbereich II"@de ;
     skos:topConceptOf <> .
 
-<7e571d9a-f903-4a6c-a036-3e2fa7e5f77c> a skos:Concept ;
+<f127750a-07c4-48db-8537-cb9213645e5b> a skos:Concept ;
     skos:broader <> ;
     skos:definition "umfasst das Verarbeiten komplexer Sachverhalte (auch auf der Basis von Texten unterschiedlicher medialer Form) mit dem Ziel, zu selbstständigen Lösungen, Gestaltungen oder Deutungen, Folgerungen, Verallgemeinerungen, Begründungen und Wertungen zu gelangen. Dabei wählen die Schülerinnen und Schüler selbstständig geeignete Arbeitstechniken, Strategien und Verfahren zur Bewältigung der Aufgabe, wenden sie auf eine neue Problemstellung an und reflektieren das eigene Vorgehen."@de ;
     skos:inScheme <> ;
@@ -18,7 +18,7 @@
     skos:prefLabel "Anforderungsbereich III"@de ;
     skos:topConceptOf <> .
 
-<a20138a7-4a56-4d7e-9edf-bb8a55e417d1> a skos:Concept ;
+<f2206b29-0163-49fe-b8c4-a9aca460bdfa> a skos:Concept ;
     skos:broader <> ;
     skos:definition "umfasst das Wiedergeben von Sachverhalten, Textinhalten und Kenntnissen im gelernten Zusammenhang, die Verständnissicherung sowie das Anwenden und Beschreiben geübter Arbeitstechniken und Verfahren."@de ;
     skos:inScheme <> ;
@@ -30,11 +30,11 @@
     dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de ;
     dct:description "Anforderungsbereiche"@de ;
     dct:title "Deutsch Primar_Anforderungsbereiche"@de ;
-    skos:hasTopConcept <455ca206-20e9-4965-beac-8bb61ad33797>,
-        <7e571d9a-f903-4a6c-a036-3e2fa7e5f77c>,
-        <a20138a7-4a56-4d7e-9edf-bb8a55e417d1> ;
-    skos:narrower <455ca206-20e9-4965-beac-8bb61ad33797>,
-        <7e571d9a-f903-4a6c-a036-3e2fa7e5f77c>,
-        <a20138a7-4a56-4d7e-9edf-bb8a55e417d1> ;
+    skos:hasTopConcept <a85608f3-2a5e-4344-a8a0-ecf0fb4cf095>,
+        <f127750a-07c4-48db-8537-cb9213645e5b>,
+        <f2206b29-0163-49fe-b8c4-a9aca460bdfa> ;
+    skos:narrower <a85608f3-2a5e-4344-a8a0-ecf0fb4cf095>,
+        <f127750a-07c4-48db-8537-cb9213645e5b>,
+        <f2206b29-0163-49fe-b8c4-a9aca460bdfa> ;
     skos:prefLabel "Anforderungsbereiche"@de .
 

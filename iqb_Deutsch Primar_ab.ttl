@@ -2,15 +2,7 @@
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
-<c4631247-c327-4321-a7a3-829a1cae16af> a skos:Concept ;
-    skos:broader <> ;
-    skos:definition "umfasst das Wiedergeben von Sachverhalten, Textinhalten und Kenntnissen im gelernten Zusammenhang, die Verständnissicherung sowie das Anwenden und Beschreiben geübter Arbeitstechniken und Verfahren."@de ;
-    skos:inScheme <> ;
-    skos:notation "1" ;
-    skos:prefLabel "Anforderungsbereich I"@de ;
-    skos:topConceptOf <> .
-
-<c4b8db20-93fb-4982-b3b2-8439fa1348dd> a skos:Concept ;
+<867fc1b1-7bc2-4fae-a803-f3d6e4fbf64f> a skos:Concept ;
     skos:broader <> ;
     skos:definition "umfasst das selbstständige Anordnen, Verarbeiten, Erklären und Darstellen bekannter Sachverhalte (auch auf der Basis von Texten unterschiedlicher medialer Form) unter vorgegebenen Gesichtspunkten in einem durch Übung bekannten Zusammenhang und das selbstständige Übertragen und Anwenden des Gelernten auf vergleichbare neue Zusammenhänge und Sachverhalte."@de ;
     skos:inScheme <> ;
@@ -18,7 +10,15 @@
     skos:prefLabel "Anforderungsbereich II"@de ;
     skos:topConceptOf <> .
 
-<f4f2c6b5-1a07-4b44-9254-b0487c8a28d1> a skos:Concept ;
+<dd6a67fd-5fd5-46fa-ace2-2d6df34ed2a8> a skos:Concept ;
+    skos:broader <> ;
+    skos:definition "umfasst das Wiedergeben von Sachverhalten, Textinhalten und Kenntnissen im gelernten Zusammenhang, die Verständnissicherung sowie das Anwenden und Beschreiben geübter Arbeitstechniken und Verfahren."@de ;
+    skos:inScheme <> ;
+    skos:notation "1" ;
+    skos:prefLabel "Anforderungsbereich I"@de ;
+    skos:topConceptOf <> .
+
+<e9f12bfd-2554-409f-9e47-28b8e84f6134> a skos:Concept ;
     skos:broader <> ;
     skos:definition "umfasst das Verarbeiten komplexer Sachverhalte (auch auf der Basis von Texten unterschiedlicher medialer Form) mit dem Ziel, zu selbstständigen Lösungen, Gestaltungen oder Deutungen, Folgerungen, Verallgemeinerungen, Begründungen und Wertungen zu gelangen. Dabei wählen die Schülerinnen und Schüler selbstständig geeignete Arbeitstechniken, Strategien und Verfahren zur Bewältigung der Aufgabe, wenden sie auf eine neue Problemstellung an und reflektieren das eigene Vorgehen."@de ;
     skos:inScheme <> ;
@@ -28,14 +28,13 @@
 
 <> a skos:ConceptScheme ;
     dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de ;
-    dct:description ""@de,
-        "Anforderungsbereiche"@de ;
+    dct:description "Anforderungsbereiche"@de ;
     dct:title "Deutsch Primar_Anforderungsbereiche"@de ;
-    skos:hasTopConcept <c4631247-c327-4321-a7a3-829a1cae16af>,
-        <c4b8db20-93fb-4982-b3b2-8439fa1348dd>,
-        <f4f2c6b5-1a07-4b44-9254-b0487c8a28d1> ;
-    skos:narrower <c4631247-c327-4321-a7a3-829a1cae16af>,
-        <c4b8db20-93fb-4982-b3b2-8439fa1348dd>,
-        <f4f2c6b5-1a07-4b44-9254-b0487c8a28d1> ;
+    skos:hasTopConcept <867fc1b1-7bc2-4fae-a803-f3d6e4fbf64f>,
+        <dd6a67fd-5fd5-46fa-ace2-2d6df34ed2a8>,
+        <e9f12bfd-2554-409f-9e47-28b8e84f6134> ;
+    skos:narrower <867fc1b1-7bc2-4fae-a803-f3d6e4fbf64f>,
+        <dd6a67fd-5fd5-46fa-ace2-2d6df34ed2a8>,
+        <e9f12bfd-2554-409f-9e47-28b8e84f6134> ;
     skos:prefLabel "Anforderungsbereiche"@de .
 
